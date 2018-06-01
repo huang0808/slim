@@ -1,0 +1,28 @@
+
+Develop environment: Linux + Apache +Mysql
+
+Use PHP framework: Slim ( Beacuse it is very small and can quickly create APIS so I selected it)
+
+The goal: Bulid Restful API used PHP
+
+
+1.mytask-02/slim/index.php
+
+  get user company information
+
+
+
+2.mytask-02/slim/mysql.php
+  connect the database
+
+
+3. I used Firefox RESTClient test API
+
+  for example: add user
+
+ First set Headers  Content-Type = application/x-www-form-urlencoded;chartset=UTF-8
+ 
+ Sencond set Method = POST URL = http://slim/add_user
+ Body : user_name=addlei&&birth=2017-02-23&&country=china&&region=beijing&&company=ibm
+
+ Finally SEND.
